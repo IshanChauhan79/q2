@@ -31,7 +31,7 @@ const products = [
       name: "LightGray Pants",
       type: "Pants",
       price: 1599,
-      color: "Blue",
+      color: "LightGray",
       img: "lightgraypants.jpg",
     },
     {
@@ -87,7 +87,7 @@ const products = [
       name: "LightGray Pants",
       type: "Pants",
       price: 1599,
-      color: "Blue",
+      color: "LightGray",
       img: "lightgraypants.jpg",
     },
     {
@@ -143,7 +143,7 @@ const products = [
       name: "LightGray Pants",
       type: "Pants",
       price: 1599,
-      color: "Blue",
+      color: "LightGray",
       img: "lightgraypants.jpg",
     },
     {

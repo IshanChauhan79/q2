@@ -5,7 +5,7 @@
 }
 .Filter {
   margin: 1rem;
-  padding: 1.5rem 2rem;
+  padding: 1.5rem;
   display: flex;
   align-items: center;
   border-radius: 1rem;
@@ -20,7 +20,23 @@
   font-size: 1.6rem;
   border-radius: 0.5rem;
   background-color: white;
+  border: 0;
+  border: 1px solid lightgray;
 }
-.Filter select value {
-  padding: 0.5rem;
+.Filter select:focus {
+  outline: none;
+}
+
+@media screen and (max-width: 31em) {
+  .Filter {
+    padding: 1rem;
+  }
+  .Label {
+    margin-right: 1rem;
+    font-size: 1.6rem;
+  }
+  .Filter select {
+    padding: 0.4rem;
+    font-size: 1.4rem;
+  }
 }

@@ -15,7 +15,7 @@
 }
 .Product > img {
   border-radius: 1rem;
-  height:20rem;
+  height: 20rem;
 }
 .Title {
   font-weight: 600;
@@ -25,4 +25,22 @@
 }
 .Price {
   font-weight: 600;
+  color: gray;
+}
+@media screen and (max-width: 31em) {
+  .Products {
+    width: 98%;
+  }
+  .Product {
+    width: 14rem;
+  }
+  .Product > img {
+    height: 14rem;
+  }
+  .Title {
+    font-size: 1.6rem;
+  }
+  .Price {
+    font-size: 1.4rem;
+  }
 }
