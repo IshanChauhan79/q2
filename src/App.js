@@ -19,7 +19,7 @@ function App() {
   return (
     <div className={classes.App}>
       <Filters colorChanged={colorHandler} typeChanged={typeHandler} />
-      <Products />
+      <Products color={color} type={type} />
     </div>
   );
 }
