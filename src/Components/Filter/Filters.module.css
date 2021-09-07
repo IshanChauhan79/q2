@@ -1,0 +1,23 @@
+.Filters {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+.Filter {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+}
+.Label {
+  margin-right: 1rem;
+  font-size: 2rem;
+}
+.Filter select {
+  padding: 0.5rem;
+  font-size: 1.6rem;
+  border-radius: 0.5rem;
+  background-color: white;
+}
+.Filter select value {
+  padding: 0.5rem;
+}
